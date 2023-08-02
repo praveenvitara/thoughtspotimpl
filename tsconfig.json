@@ -17,7 +17,15 @@
     "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "noImplicitAny": false,
+    "noUnusedLocals": false,                           /* Enable error reporting when local variables aren't read. */
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "allowUnusedLabels": true,                        /* Disable error reporting for unused labels. */
+    "allowUnreachableCode": true, 
+
   },
   "include": ["src"]
 }

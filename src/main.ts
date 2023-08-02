@@ -136,12 +136,12 @@ function render(ctx: CustomChartContext) {
                       dataY,
                       dataModel.getPointDetails(dataX, dataY),
                   );
-                  ctx.emitEvent(ChartToTSEvent.OpenContextMenu, {
+                 /*  ctx.emitEvent(ChartToTSEvent.OpenContextMenu, {
                       event: getParsedEvent(e),
                       clickedPoint: {
                           tuple: dataModel.getPointDetails(dataX, dataY),
                       },
-                  });
+                  }); */
               },
           },
       });
